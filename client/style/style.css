@@ -1,0 +1,133 @@
+.container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.container video {
+	position: fixed;
+	left: 50%;  
+	top:50%;
+	min-width: 100%;
+	min-height: 100%;
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+	z-index: -1;
+}
+
+.content {
+	text-align: center;
+}
+
+.content h1{
+	font-family : Algerian;
+	font-size : 81px;
+    color : #DD6819;
+    color : rgb(221, 104, 25);
+    margin-bottom: 15px;
+    margin-top:50px;
+}
+
+.content input{
+	margin-top: 0px;
+	width : 554px;
+    height : 44px;
+    border: 1px solid #050505;
+}
+
+.content input::-webkit-input-placeholder {
+    font-family : Blackadder ITC;
+	font-size : 25px;
+	text-align: center;
+}
+
+.content input::-moz-placeholder { /* Firefox 18- */
+    font-family : Blackadder ITC;
+	font-size : 25px;
+	text-align: center;
+}
+
+.content input::-moz-placeholder {  /* Firefox 19+ */
+    font-family : Blackadder ITC;
+	font-size : 25px;
+	text-align: center;
+}
+
+.content input::-ms-input-placeholder {  
+    font-family : Blackadder ITC;
+	font-size : 25px;
+	text-align: center;
+}
+
+.content input[type="text"] {
+	text-align: center;
+	font-family : Blackadder ITC;
+	font-size : 25px;
+}
+
+.hotel-info-container{
+	width: 470px;
+	text-align: center;
+	margin: 30px auto;
+}
+
+.hotel-info {
+	text-align: center;
+	width : 400px;
+    height : 140px;
+    border: 1px solid #050505;	
+    margin-top: 50px;
+}
+
+.hotel-info .hotel-title {
+	font-family : Baskerville Old Face;
+    font-size : 22px;
+    margin-top: 8px;
+    color: #0013FF;
+}
+
+.hotel-info .hotel-review {
+	font-family : Consolas;
+    font-size : 12px;
+    color : #000;
+    margin-top: -5px;
+}
+
+.hotel-info .hotel-interested {
+	font-family : Garamond;
+    font-size : 21px;
+    color : #C1D3C2;
+    margin-top: 10px;
+}
+
+.fa-heart {
+	font-size : 10px;
+	cursor: pointer;
+}
+
+.font-awesome-angle-right {
+	margin-top: 75px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.font-awesome-angle-left {
+	margin-top: 75px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.loadingIcon {
+	margin-top: 100px;
+}
+
+.fa-moon-o {
+	color: #3c3c3c;
+}
+
+.errorMessage {
+	color: red;
+}
